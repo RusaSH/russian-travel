@@ -9,6 +9,7 @@
   background-image: url(../../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -38,7 +39,13 @@
 }
 
 @media screen and (max-width: 640px) {
-  .cover__background {
-    min-height: 200px;
+  .cover__background  {
+      min-height: 360px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cover__background  {
+      min-height: 200px;
   }
 }
