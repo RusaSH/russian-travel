@@ -28,10 +28,8 @@
 @media screen and (max-width: 798px) {
   .place {
     margin: 0 24px 73px;
-    max-width: 984px;
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
-    row-gap: 48px;
   }
 
   .place:last-child {
